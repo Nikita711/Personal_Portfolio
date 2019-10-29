@@ -181,35 +181,32 @@ i{
   z-index: 2;
   color: #fff;
   cursor: pointer;
+  /* background-color: #FF7733; important */
+  background: #fc4a1a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .price-area .single-price:hover h1, .price-area .single-price:hover h4 {
   color:#fff;
+  
 }
 
 .price-area .single-price:hover .package-no {
-  border-color: rgba(255, 255, 255, 0.21);
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #FF7733;
 }
 
 .price-area .single-price:hover .bottom-part h1 {
   display: none;
+  background-color: #FF7733;
 }
 
 .price-area .single-price:hover .bottom-part .price-btn {
   display: block;
+  background-color: #FF7733;
 }
 
-/* @media (max-width: 960px) {
-  .price-area .single-price {
-    margin-bottom: 30px;
-  }
+.col-lg-3 col-md-6 single-price :hover{
+background-color: #FF7733;
 }
-
-@media (max-width: 736px) {
-  .price-area .single-price {
-    margin: 10px;
-  }
-} */
-
-/*--------- end price  Area -------------*/
