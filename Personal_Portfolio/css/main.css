@@ -1,0 +1,215 @@
+::after,::before{
+    padding: 0;
+    margin: 0;
+}
+#home-area{
+    background-image: url("../image/image1.png");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+html,body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+}
+h2{
+    font-size: 44px;
+    font-weight: 800;
+  float: right;
+  padding-top: 230px;
+  margin-right: 60px;
+  color: #FF7733;
+    
+}
+span{
+    font-size: 32px;
+}
+.para-header{
+    font-size: 16px;
+    color: #FF7733;
+    margin-top: 340px;
+    margin-right: -355px;
+    float: right;
+}
+i{
+    font-size:42px;
+    float: right;
+    margin-top: 400px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.single-services a{
+    text-decoration: none;
+    color: #FF7733;
+    text-align: center;
+}
+.single-services h4{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.single-services p{
+    font-size: 14px;
+    color: darkgrey;
+    
+  
+}
+.single-services span{
+    margin-left:100px;
+}
+.single-services span:hover{
+    color: #FF7733;
+}
+.container{
+    padding: 90px;
+}
+.title-para{
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.single-services{
+    padding: 25px;
+}
+.single-fact {
+  text-align: center;
+}
+
+.single-fact h1, .single-fact p {
+  color: #fff;
+}
+
+.single-fact h1 {
+  font-weight: 700;
+}
+
+@media (max-width: 800px) {
+  .single-fact {
+    margin-bottom: 30px;
+  }
+}
+/* the fact area */
+.single-fact {
+    text-align: center;
+  }
+  
+  .single-fact h1, .single-fact p {
+    color: #fff;
+  }
+  
+  .single-fact h1 {
+    font-weight: 700;
+  }
+  
+  
+
+
+  
+  /*--------- Start price  Area -------------*/
+.price-area .single-price {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  background-color: #f9f9ff;
+  padding: 40px 20px;
+}
+
+.price-area .single-price .package-no {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  height: 140px;
+  background-color: rgba(132, 144, 255, 0.1);
+  border-radius: 100px;
+  align-items: center;
+  display: grid;
+  border: 30px solid rgba(132, 144, 255, 0.1);
+}
+
+.price-area .single-price .top-part h4 {
+  margin-top: 20px;
+}
+
+.price-area .single-price .package-list {
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+.price-area .single-price .package-list ul li {
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+}
+
+.price-area .single-price .package-list ul li:last-child {
+  border-bottom: 1px solid #eee;
+}
+
+.price-area .single-price .bottom-part {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.price-area .single-price .bottom-part .price-btn {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background-color: #fff;
+  color: #222;
+  padding: 10px 50px;
+  font-weight: 600;
+  display: inline-block;
+  display: none;
+}
+
+.price-area .single-price:hover {
+  transform: scale(1.05);
+  z-index: 2;
+  color: #fff;
+  cursor: pointer;
+}
+
+.price-area .single-price:hover h1, .price-area .single-price:hover h4 {
+  color:#fff;
+}
+
+.price-area .single-price:hover .package-no {
+  border-color: rgba(255, 255, 255, 0.21);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.price-area .single-price:hover .bottom-part h1 {
+  display: none;
+}
+
+.price-area .single-price:hover .bottom-part .price-btn {
+  display: block;
+}
+
+/* @media (max-width: 960px) {
+  .price-area .single-price {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 736px) {
+  .price-area .single-price {
+    margin: 10px;
+  }
+} */
+
+/*--------- end price  Area -------------*/
